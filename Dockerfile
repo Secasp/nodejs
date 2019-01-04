@@ -16,7 +16,7 @@ RUN npm install
 
 COPY . /usr/src/app
 
-EXPOSE 3000
+EXPOSE 3000:3000
 
 CMD ["npm", "run", "dev"]
 CMD ["node", "app.js"]
